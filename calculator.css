@@ -1,0 +1,73 @@
+body{
+    background-color: pink;
+    font-size: 55px;
+}
+
+.flexcon{
+    display: flex;
+    justify-content: center;
+}
+
+.horiflex{
+    flex-direction:row;
+}
+
+.vertflex{
+    flex-direction:column;
+}
+
+.container{
+    width: 50vw;
+    margin: 10vh 20vw;
+    padding: 10vh 5vw;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6adb7, #ffcdd9);
+    box-shadow:  20px 20px 60px #d9a3ad, 
+             -20px -20px 60px #ffdde9;
+}
+
+.display-screen{    
+    margin: 20px 10px;
+}
+
+.display{
+    text-align: right;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 63px;
+    background: #ffc0cb;
+    box-shadow: inset 20px 20px 40px #d49fa8, 
+                inset -20px -20px 40px #ffe1ee;
+}
+
+.sub-screen{
+    height: 30px;
+    font-size: 25px;
+}
+
+.control-pad{
+    
+}
+
+button{
+    font-size: 55px;
+    margin: 10px;
+    padding: 5px;
+    width: 10vw;
+    height: 10vh;
+    background-color: pink;
+    border-style: none;
+    border-radius: 135px;
+    background: linear-gradient(145deg, #ffcdd9, #e6adb7);
+    box-shadow:  20px 20px 40px #d49fa8, 
+                -20px -20px 40px #ffe1ee;
+}
+
+.clicked{
+    border-radius: 50px;
+    background: #ffc0cb;
+    box-shadow: inset 20px 20px 60px #d9a3ad, 
+                inset -20px -20px 60px #ffdde9;
+}
+
